@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "LeapDevSDK"
+    s.name         = "LeapSDK"
     s.version      = "1.4.3"
     s.summary      = "Product engagement made easy"
     s.description  = <<-DESC 
