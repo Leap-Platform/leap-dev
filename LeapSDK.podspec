@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.0']
     s.license      = { :type => "BSD",:file=>"LICENSE.md"}
     s.author       = { "Aravind G S" => "aravind@jiny.io" }
-    s.source       = { :git => "https://github.com/Leap-Platform/leap-ios.git", :tag => s.version.to_s }
+    s.source       = { :git => "https://github.com/Leap-Platform/leap-dev.git", :tag => s.version.to_s }
     s.vendored_frameworks = "LeapSDK.xcframework"
     s.frameworks   = 'UIKit', 'Webkit', 'AVFoundation'
     s.dependency 'LeapCoreSDK'
