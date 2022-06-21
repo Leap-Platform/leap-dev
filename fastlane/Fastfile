@@ -14,6 +14,7 @@
 # update_fastlane
 
 default_platform(:ios)
+podspec_name = "LeapSDK.podspec"
 
 platform :ios do
   desc "Description of what the lane does"
