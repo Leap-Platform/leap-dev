@@ -238,6 +238,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Leap * _Nonn
 - (void)setUniqueUserId:(NSString * _Nonnull)uniqueId;
 - (void)startProject:(NSString * _Nonnull)projectId resetProject:(BOOL)resetProject;
 - (void)embedProject:(NSString * _Nonnull)projectId;
+- (void)offlineSync:(NSArray<NSString *> * _Nonnull)projectIds;
 - (void)disable;
 @end
 
@@ -248,6 +249,7 @@ SWIFT_PROTOCOL("_TtP7LeapSDK12LeapCallback_")
 @protocol LeapCallback <NSObject>
 - (void)eventNotificationWithEventInfo:(NSDictionary<NSString *, id> * _Nonnull)eventInfo;
 @end
+
 
 
 
@@ -500,6 +502,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Leap * _Nonn
 - (void)setUniqueUserId:(NSString * _Nonnull)uniqueId;
 - (void)startProject:(NSString * _Nonnull)projectId resetProject:(BOOL)resetProject;
 - (void)embedProject:(NSString * _Nonnull)projectId;
+- (void)offlineSync:(NSArray<NSString *> * _Nonnull)projectIds;
 - (void)disable;
 @end
 
@@ -510,6 +513,7 @@ SWIFT_PROTOCOL("_TtP7LeapSDK12LeapCallback_")
 @protocol LeapCallback <NSObject>
 - (void)eventNotificationWithEventInfo:(NSDictionary<NSString *, id> * _Nonnull)eventInfo;
 @end
+
 
 
 
